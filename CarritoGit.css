@@ -1,0 +1,21 @@
+.container { 
+    padding: 20px; 
+}
+.grid {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+.items { 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    width: 200px; 
+}
+.buy-card { 
+    display: none; 
+}
+.buy-card.visible { 
+    display: block; 
+}
+.nav-card { 
+    list-style: none; padding: 0; }
